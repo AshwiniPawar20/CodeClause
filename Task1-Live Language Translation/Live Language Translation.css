@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px 10px;
+    background-image: radial-gradient(#e272f3, #f0559d);
+}
+
+.container {
+    width: 690px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.box .text-input {
+    display: flex;
+    border-bottom: 2px solid #e2e0e0;
+}
+
+.text-input .translate {
+    border-radius: 0px;
+    border-left: 2px solid #bbb;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    padding: 10px 15px;
+    background: none;
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.text-input textarea::placeholder {
+    color: #8e8d8d;
+}
+
+.control-btn,
+li,
+.icons,
+.icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control-btn {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.control-btn .row .icons {
+    width: 38%;
+}
+
+.control-btn .row .icons i {
+    width: 50px;
+    color: #8e8d8d;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.control-btn .row.one .icons {
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+
+.control-btn .row.two .icons {
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+
+.control-btn .row select {
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 5px;
+}
+
+.control-btn .exchange {
+    color: #8e8d8d;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.control-btn i:active {
+    transform: scale(0.9);
+}
+
+.container button {
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-image: linear-gradient(#a445b2, #f262a5);
+    cursor: pointer;
+}
